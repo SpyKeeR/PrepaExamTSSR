@@ -151,8 +151,6 @@
 -  [ ] C) `chmod 600 fichier`
 -  [ ] D) `chmod u+rwx,go-rwx fichier`
 
-> **Note** : A et D sont toutes les deux correctes (notation octale vs symbolique)
-
 **Question 23** : Comment ajouter le droit d'exécution pour tout le monde sur un fichier ?
 -  [ ] A) `chmod +x fichier`
 -  [ ] B) `chmod a+x fichier`
@@ -164,8 +162,6 @@
 -  [ ] B) `chown user:group fichier`
 -  [ ] C) `chown user.group fichier`
 -  [ ] D) Toutes les réponses sont correctes
-
-> **Note** : A, B et C fonctionnent toutes. B et C sont plus élégantes (une seule commande).
 
 **Question 25** : Que signifie un umask de `0022` ?
 -  [ ] A) Fichiers créés avec 644, dossiers avec 755
@@ -228,10 +224,8 @@
 **Question 34** : Comment rechercher le mot "error" dans un fichier (insensible à la casse) ?
 -  [ ] A) `grep error fichier`
 -  [ ] B) `grep -i error fichier`
--  [ ] C) `grep -ignore-case error fichier` ❌ ERREUR : il manque un tiret !
+-  [ ] C) `grep -ignore-case error fichier`
 -  [ ] D) `grep --ignore-case error fichier`
-
-> **Note** : Seule B est correcte. C a une erreur (devrait être `--ignore-case` avec DEUX tirets).
 
 **Question 35** : Quelle commande compte le nombre de lignes dans un fichier ?
 -  [ ] A) `wc fichier`
