@@ -6,7 +6,7 @@
 ---
 
 ### Q1 : Pare-feu règles
-Ordre d'évaluation règles pare-feu ?
+Dans quel ordre un pare-feu évalue-t-il ses règles de filtrage ?
 - [ ] A) Alphabétique
 - [ ] B) Haut vers bas, première correspondance appliquée 
 - [ ] C) Plus restrictive toujours prioritaire
@@ -15,7 +15,7 @@ Ordre d'évaluation règles pare-feu ?
 ---
 
 ### Q2 : NAT sortant
-Que fait NAT sortant (SNAT) ?
+Quel est le rôle du NAT sortant (SNAT) ?
 - [ ] A) Traduit IP publique → privée
 - [ ] B) Traduit IP privée → publique 
 - [ ] C) Bloque trafic sortant
@@ -24,7 +24,7 @@ Que fait NAT sortant (SNAT) ?
 ---
 
 ### Q3 : Port Forwarding
-Rediriger port WAN:80 vers serveur DMZ 10.0.1.50:8080, quelle règle NAT ?
+Vous devez rediriger le port WAN:80 vers un serveur en DMZ (10.0.1.50:8080). Quel type de règle NAT devez-vous configurer ?
 - [ ] A) Destination NAT (DNAT) 
 - [ ] B) Source NAT
 - [ ] C) PAT
@@ -33,7 +33,7 @@ Rediriger port WAN:80 vers serveur DMZ 10.0.1.50:8080, quelle règle NAT ?
 ---
 
 ### Q4 : DMZ utilité
-Pourquoi placer serveur web dans DMZ ?
+Quelle est la raison principale de placer un serveur web dans une DMZ ?
 - [ ] A) Performances accrues
 - [ ] B) Isoler des ressources internes sensibles 
 - [ ] C) Économie coûts
@@ -42,7 +42,7 @@ Pourquoi placer serveur web dans DMZ ?
 ---
 
 ### Q5 : VPN Site-to-Site
-Différence VPN Site-to-Site vs Remote Access ?
+Quelle est la principale différence entre un VPN Site-to-Site et un VPN Remote Access ?
 - [ ] A) Aucune
 - [ ] B) Site-to-Site connecte 2 réseaux, Remote Access connecte utilisateur nomade 
 - [ ] C) Site-to-Site plus lent
@@ -51,7 +51,7 @@ Différence VPN Site-to-Site vs Remote Access ?
 ---
 
 ### Q6 : Protocole VPN
-Quel protocole VPN le plus sécurisé ?
+Parmi les protocoles VPN suivants, lequel est considéré comme le plus sécurisé ?
 - [ ] A) PPTP
 - [ ] B) L2TP/IPsec 
 - [ ] C) GRE
@@ -60,7 +60,7 @@ Quel protocole VPN le plus sécurisé ?
 ---
 
 ### Q7 : VLAN avantage
-Principal avantage VLANs ?
+Quel est le principal avantage de l'utilisation des VLANs ?
 - [ ] A) Augmente vitesse réseau
 - [ ] B) Segmentation logique sur même switch physique 
 - [ ] C) Remplace routeur
@@ -69,7 +69,7 @@ Principal avantage VLANs ?
 ---
 
 ### Q8 : Trunk 802.1Q
-Que transporte port Trunk ?
+Que transporte un port configuré en mode Trunk ?
 - [ ] A) Un seul VLAN
 - [ ] B) Plusieurs VLANs taggués 
 - [ ] C) Uniquement management
@@ -78,7 +78,7 @@ Que transporte port Trunk ?
 ---
 
 ### Q9 : Proxy transparent
-Différence proxy standard vs transparent ?
+Quelle est la différence entre un proxy standard et un proxy transparent ?
 - [ ] A) Transparent chiffre, standard non
 - [ ] B) Transparent intercepte trafic sans config navigateur 
 - [ ] C) Standard plus rapide
@@ -87,7 +87,7 @@ Différence proxy standard vs transparent ?
 ---
 
 ### Q10 : ACL Squid
-Syntaxe bloquer Facebook via Squid ?
+La syntaxe suivante pour bloquer Facebook via Squid est-elle correcte ?
 ```
 acl facebook dstdomain .facebook.com
 http_access deny facebook 
@@ -100,7 +100,7 @@ http_access deny facebook
 ---
 
 ### Q11 : IDS vs IPS
-Différence IDS/IPS ?
+Quelle est la différence fondamentale entre un IDS et un IPS ?
 - [ ] A) IDS détecte, IPS détecte + bloque 
 - [ ] B) Aucune
 - [ ] C) IDS matériel, IPS logiciel
@@ -109,7 +109,7 @@ Différence IDS/IPS ?
 ---
 
 ### Q12 : Suricata mode
-Modes fonctionnement Suricata ?
+Quels sont les modes de fonctionnement disponibles pour Suricata ?
 - [ ] A) IDS uniquement
 - [ ] B) IPS uniquement
 - [ ] C) IDS et IPS 
@@ -118,7 +118,7 @@ Modes fonctionnement Suricata ?
 ---
 
 ### Q13 : Certificat SSL
-Pourquoi certificat SSL HTTPS ?
+Quel est le rôle principal d'un certificat SSL dans une connexion HTTPS ?
 - [ ] A) Vitesse accrue
 - [ ] B) Chiffrement données + authentification serveur 
 - [ ] C) SEO uniquement
@@ -127,7 +127,7 @@ Pourquoi certificat SSL HTTPS ?
 ---
 
 ### Q14 : Port HTTPS
-Port par défaut HTTPS ?
+Quel est le port par défaut utilisé par le protocole HTTPS ?
 - [ ] A) 80
 - [ ] B) 443 
 - [ ] C) 8080
@@ -136,7 +136,7 @@ Port par défaut HTTPS ?
 ---
 
 ### Q15 : Let's Encrypt
-Caractéristique Let's Encrypt ?
+Quelle est la principale caractéristique de l'autorité de certification Let's Encrypt ?
 - [ ] A) Certificats payants
 - [ ] B) Certificats gratuits, renouvellement auto 90j 
 - [ ] C) Wildcard non supporté
@@ -145,7 +145,7 @@ Caractéristique Let's Encrypt ?
 ---
 
 ### Q16 : Protocole sécurisé
-Remplacer Telnet (non sécurisé) par ?
+Par quel protocole sécurisé devez-vous remplacer Telnet pour l'administration à distance ?
 - [ ] A) FTP
 - [ ] B) SSH 
 - [ ] C) HTTP
@@ -154,7 +154,7 @@ Remplacer Telnet (non sécurisé) par ?
 ---
 
 ### Q17 : SNMP v3
-Avantage SNMP v3 vs v1/v2c ?
+Quel est l'avantage principal de SNMP v3 par rapport aux versions v1/v2c ?
 - [ ] A) Plus rapide
 - [ ] B) Authentification + chiffrement 
 - [ ] C) Moins de commandes
@@ -163,7 +163,7 @@ Avantage SNMP v3 vs v1/v2c ?
 ---
 
 ### Q18 : Règle pare-feu moindre privilège
-Principe moindre privilège pare-feu ?
+En quoi consiste le principe du moindre privilège appliqué à un pare-feu ?
 - [ ] A) Tout autoriser par défaut
 - [ ] B) Tout bloquer par défaut, autoriser sélectivement 
 - [ ] C) Pas de règles
@@ -172,7 +172,7 @@ Principe moindre privilège pare-feu ?
 ---
 
 ### Q19 : Logs pare-feu
-Pourquoi activer logs règles ?
+Quelle est la raison principale d'activer la journalisation (logs) des règles de pare-feu ?
 - [ ] A) Performance
 - [ ] B) Audit sécurité + forensic incidents 
 - [ ] C) Obligation légale uniquement
@@ -181,7 +181,7 @@ Pourquoi activer logs règles ?
 ---
 
 ### Q20 : Alias pfSense
-Utilité Alias pfSense ?
+Quelle est l'utilité des Alias dans pfSense ?
 - [ ] A) Créer VLANs
 - [ ] B) Grouper IPs/ports pour règles simplifiées 
 - [ ] C) Chiffrer trafic
@@ -190,7 +190,7 @@ Utilité Alias pfSense ?
 ---
 
 ### Q21 : Attaque DDoS
-Qu'est-ce qu'attaque DDoS ?
+Qu'est-ce qu'une attaque DDoS (Distributed Denial of Service) ?
 - [ ] A) Vol données
 - [ ] B) Saturation serveur par trafic massif 
 - [ ] C) Phishing
@@ -199,7 +199,7 @@ Qu'est-ce qu'attaque DDoS ?
 ---
 
 ### Q22 : Whitelisting vs Blacklisting
-Approche plus sécurisée ?
+Quelle approche de filtrage est considérée comme la plus sécurisée ?
 - [ ] A) Blacklist (bloquer connus malveillants)
 - [ ] B) Whitelist (autoriser uniquement connus légitimes) 
 - [ ] C) Équivalent
@@ -208,7 +208,7 @@ Approche plus sécurisée ?
 ---
 
 ### Q23 : Spanning Tree Protocol
-Rôle STP switchs ?
+Quel est le rôle principal du protocole STP (Spanning Tree Protocol) sur les switchs ?
 - [ ] A) Routage inter-VLAN
 - [ ] B) Prévenir boucles réseau 
 - [ ] C) Chiffrement
@@ -217,7 +217,7 @@ Rôle STP switchs ?
 ---
 
 ### Q24 : ACL routeur
-ACL standard vs étendue ?
+Quelle est la différence entre une ACL standard et une ACL étendue ?
 - [ ] A) Standard filtre IP source uniquement, étendue ajoute destination/port/protocole 
 - [ ] B) Aucune différence
 - [ ] C) Standard plus sécurisée
@@ -226,7 +226,7 @@ ACL standard vs étendue ?
 ---
 
 ### Q25 : MTU
-Que signifie MTU 1500 ?
+Que signifie un MTU (Maximum Transmission Unit) de 1500 ?
 - [ ] A) Vitesse 1500 Mbps
 - [ ] B) Taille maximale trame Ethernet = 1500 octets 
 - [ ] C) 1500 utilisateurs max
