@@ -1,6 +1,6 @@
-# CORRECTIONS - CCP4 WINDOWS SERVER / AD
+# CORRECTIONS - CCP2 WINDOWS SERVER / AD
 
-**Certification TSSR** - CCP4 : Maintenir infrastructure centralisée Windows  
+**Certification TSSR** - CCP2 : Exploiter des serveurs Windows et un domaine ActiveDirectory
 **15 questions - Corrections détaillées**
 
 ---

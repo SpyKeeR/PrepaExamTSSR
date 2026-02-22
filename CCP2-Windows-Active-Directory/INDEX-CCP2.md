@@ -26,7 +26,7 @@ Maîtriser l'administration Windows Server et Active Directory :
 CCP2-Windows-Active-Directory/
 │
 ├── Fiche-Revisions/
-│   └── FICHE-CCP4-Windows-AD-PowerShell.md        → Théorie complète
+│   └── FICHE-CCP2-Windows-AD-PowerShell.md        → Théorie complète
 │
 ├── QCM/
 │   ├── Evaluation/
@@ -36,17 +36,17 @@ CCP2-Windows-Active-Directory/
 │
 └── Questions-Ouvertes/
     ├── Evaluation/
-    │   └── QUESTIONS-OUVERTES-CCP4-Windows-AD-15Q-EVALUATION.md
+    │   └── QUESTIONS-OUVERTES-CCP2-Windows-AD-15Q-EVALUATION.md
     └── Correction/
-        └── QUESTIONS-OUVERTES-CCP4-Windows-AD-15Q-CORRECTION.md
+        └── QUESTIONS-OUVERTES-CCP2-Windows-AD-15Q-CORRECTION.md
 ```
 
 ---
 
 ## 📖 1. FICHE DE RÉVISION
 
-### FICHE-CCP4-Windows-AD-PowerShell.md
-**Chemin** : `Fiche-Revisions/FICHE-CCP4-Windows-AD-PowerShell.md`
+### FICHE-CCP2-Windows-AD-PowerShell.md
+**Chemin** : `Fiche-Revisions/FICHE-CCP2-Windows-AD-PowerShell.md`
 
 **Contenu** :
 - 🏛️ Architecture Active Directory (forêt, domaine, OU, objets)
@@ -107,8 +107,8 @@ CCP2-Windows-Active-Directory/
 
 ## 📋 3. QUESTIONS OUVERTES (15 questions)
 
-### QUESTIONS-OUVERTES-CCP4-Windows-AD-15Q-EVALUATION.md
-**Chemin** : `Questions-Ouvertes/Evaluation/QUESTIONS-OUVERTES-CCP4-Windows-AD-15Q-EVALUATION.md`
+### QUESTIONS-OUVERTES-CCP2-Windows-AD-15Q-EVALUATION.md
+**Chemin** : `Questions-Ouvertes/Evaluation/QUESTIONS-OUVERTES-CCP2-Windows-AD-15Q-EVALUATION.md`
 
 **Contenu** : 15 questions détaillées
 
@@ -128,8 +128,8 @@ CCP2-Windows-Active-Directory/
 
 ---
 
-### QUESTIONS-OUVERTES-CCP4-Windows-AD-15Q-CORRECTION.md
-**Chemin** : `Questions-Ouvertes/Correction/QUESTIONS-OUVERTES-CCP4-Windows-AD-15Q-CORRECTION.md`
+### QUESTIONS-OUVERTES-CCP2-Windows-AD-15Q-CORRECTION.md
+**Chemin** : `Questions-Ouvertes/Correction/QUESTIONS-OUVERTES-CCP2-Windows-AD-15Q-CORRECTION.md`
 
 **Contenu** : Corrections détaillées avec scripts complets
 
@@ -198,6 +198,6 @@ New-ADOrganizationalUnit -Name "Paris" -Path "DC=entreprise,DC=local"
 
 ---
 
-**Commence maintenant** : [Fiche-Revisions/FICHE-CCP4-Windows-AD-PowerShell.md](Fiche-Revisions/FICHE-CCP4-Windows-AD-PowerShell.md)
+**Commence maintenant** : [Fiche-Revisions/FICHE-CCP2-Windows-AD-PowerShell.md](Fiche-Revisions/FICHE-CCP2-Windows-AD-PowerShell.md)
 
 **Bon courage ! 🪟💪**
