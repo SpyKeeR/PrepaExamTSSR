@@ -1,6 +1,6 @@
-# FICHE REVISION CCP4 - WINDOWS SERVER / ACTIVE DIRECTORY / POWERSHELL
+# FICHE REVISION CCP2 - WINDOWS SERVER / ACTIVE DIRECTORY / POWERSHELL
 
-**Certification TSSR** - CCP4 : Maintenir et exploiter une infrastructure centralisée Windows
+**Certification TSSR** - CCP2 : Exploiter des serveurs Windows et un domaine ActiveDirectory
 
 ---
 
